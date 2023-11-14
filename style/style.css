@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.otabek__container{
+    width: 100%;
+    max-width: 1297px;
+    margin: 0 auto;
+}
+
+.abdulaziz__container{
+    width: 100%;
+    max-width: 1297px;
+    margin: 0 auto;
+}
+
+.abdulaziz__card{
+    display: flex;
+    flex-direction: column;
+    width: 308px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 1px 2px 12px 0px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+}
+
+.abdulaziz__card img{
+    width: 100%;
+}
+
+.abdulaziz__card__content{
+    padding: 0 15px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.abdulaziz__card__title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.abdulaziz__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abdulaziz__card__intro__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.abdulaziz__text__price{
+    color: #EB3223;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.abdulaziz__text__used{
+    color: var(--primary-grey-6, #FFF);
+    font-family: Manrope;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: var(--Red, #F12B2C);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 40px;
+    height: 16px;
+}
+
+.abdulaziz__location{
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.abdulaziz__time{
+    color: #000;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+}
+
+.abdulaziz__cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    row-gap: 80px;
+    margin-top: 140px;
+}
+
+.card1 {
+    width: 626px;
+    height: 303px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card2 {
+    width: 626px;
+    height: 303px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FAFAFA;
+    box-shadow: 0px 4px 32px 0px rgba(0, 0, 0, 0.25);
+}
+
+.box-title1 {
+    margin-left: 45px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 29.65px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: 42px;
+    line-height: normal;
+}
+
+.box-text1 {
+    width: 279px;
+    margin-top: 30px;
+    margin-left: 28px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20.65px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.box-btn1 {
+    margin-top: 21px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20.65px;
+    font-style: normal;
+    margin-left: 86px;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 9px 22px 14px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #FC0B0D;
+}
+
+.card1 {
+    display: inline-flex;
+}
+
+.box11 {
+    display: block;
+    align-items: center;
+
+}
+
+.box12 {
+    margin-top: 38px;
+    width: 255px;
+    height: 238px;
+}
+.card{
+    display: flex;
+}
+.crad2{
+    display: flex;
+}
+.box122{
+    margin-right: 56px;
+    margin-top: 38px;
+}
+.mert{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+}
+
+.view__more{
+    text-align: center;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 29.827px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    width: 221px;
+    height: 70.252px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    border: 1px solid #EB3223;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.container1{
+    width: 100%;
+    max-width: 1297px;
+    margin: 0 auto;
+ }
+
+.navbar-logo{
+    color: #4A99D3;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0;
+}
+
+.navbar-menu{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu a{
+    color: #0F001A;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.abu-img{
+    width: 57px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.abu-img2{
+    margin-left: 84px;
+    width: 57.308px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.footer{
+    background: #EAF6FF;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block__title{
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.block__text{
+    color: #504A41;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 610px;
+}
+
+.block__2{
+    display: flex;
+    gap: 80px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.h1__column{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.column p{
+    display: flex;
+    gap: 20px;
+align-items: center;
+color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

@@ -1,0 +1,108 @@
+@media screen and (max-width: 1355px){
+    .abdulaziz__container{
+        max-width: 1240px;
+    }
+
+    .mert{
+        gap: 20px;
+    }
+
+    .container1{
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .mert{
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+    .footer .abdulaziz__container{
+        max-width: 90%;
+    }
+
+    .block__2{
+        gap: 20px;
+    }
+
+    .block__text{
+        max-width: 430px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .abdulaziz__container{
+        max-width: 950px;
+    }
+
+    .footer__content{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .abdulaziz__container{
+        max-width: 600px;
+    }
+
+    .box-title1{
+        margin-top: 10px;margin-left: 10px;
+    }
+
+    .box-text1{
+    margin-top: 2px;
+    margin-left: 10px;
+    }
+
+    .box12 svg{
+        width: 200px;
+    }
+
+    .card1{
+        width: 575px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card1{
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-menu{
+        justify-content: space-between;
+
+    }
+    .abu-img2{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .block__2{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .abdulaziz__container{
+        max-width: 95%;
+    }
+
+    .abdulaziz__card{
+        width: 290px;
+    }
+}
